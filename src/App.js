@@ -11,12 +11,12 @@ import Form from './scenes/form/index'
 import Contacts from './scenes/contacts/index'
 import  Calendar from  './scenes/calendar/index'
 import FAQ from './scenes/faq/index'
-// import Line from './scenes/dashboard/line'
+import Line from './scenes/line/index'
 import Bar from './scenes/bar/index.jsx'
 
-// import Pie from './scenes/dashboard/pie'
+import Pie from './scenes/pie/index'
 
-// import Geography from './scenes/dashboard/geography'
+import Geography from './scenes/geography/index'
 
 
 
@@ -42,10 +42,10 @@ function App() {
                 <Route path="/calendar" element={<Calendar/>} />
                 <Route path="/faq" element={<FAQ/>} />
                 <Route path="/form" element={<Form/>} />
-                {/* <Route path="/line" element={<Line/>} /> */}
+                <Route path="/line" element={<Line/>} />
                 <Route path="/bar" element={<Bar/>} />
-                {/* <Route path="/pie" element={<Pie/>} /> */}
-                {/* <Route path="/geography" element={<Geography/>} /> */}
+                <Route path="/pie" element={<Pie/>} />
+                <Route path="/geography" element={<Geography/>} />
 
               </Routes>
 
