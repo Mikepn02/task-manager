@@ -10,7 +10,7 @@ import Invoices from './scenes/invoices/index'
 import Contacts from './scenes/contacts/index'
 // import Line from './scenes/dashboard/line'
 // import Bar from './scenes/dashboard/bar'
-// import Form from './scenes/dashboard/form'
+import Form from './scenes/form/index'
 // import Pie from './scenes/dashboard/pie'
 // import FAQ from './scenes/dashboard/faq'
 // import Geography from './scenes/dashboard/geography'
@@ -40,7 +40,7 @@ function App() {
                 {/* <Route path="/bar" element={<Bar/>} /> */}
                 {/* <Route path="/pie" element={<Pie/>} /> */}
                 {/* <Route path="/faq" element={<FAQ/>} /> */}
-                {/* <Route path="/form" element={<Form/>} /> */}
+                <Route path="/form" element={<Form/>} />
                 {/* <Route path="/geography" element={<Geography/>} /> */}
                 {/* <Route path="/calendar" element={<Calendar/>} /> */}
               </Routes>
