@@ -14,7 +14,7 @@ import Form from './scenes/form/index'
 // import Pie from './scenes/dashboard/pie'
 // import FAQ from './scenes/dashboard/faq'
 // import Geography from './scenes/dashboard/geography'
-// import  Calendar from  './scenes/dashboard/calendar'
+import  Calendar from  './scenes/calendar/index'
 
 
 
@@ -42,7 +42,7 @@ function App() {
                 {/* <Route path="/faq" element={<FAQ/>} /> */}
                 <Route path="/form" element={<Form/>} />
                 {/* <Route path="/geography" element={<Geography/>} /> */}
-                {/* <Route path="/calendar" element={<Calendar/>} /> */}
+                <Route path="/calendar" element={<Calendar/>} />
               </Routes>
 
             </main>

@@ -5,7 +5,7 @@ import { mockDataTeam } from "../../data/mockData"
 import AdminPannelSettingsOutlinedIcon from '@mui/icons-material/AdminPanelSettingsOutlined'
 import LockOpenOutlinedIcon from '@mui/icons-material/LockOpenOutlined'
 import SecurityOutlinedIcon from '@mui/icons-material/SecurityOutlined'
-import { color, useTheme } from "@mui/system";
+import {useTheme} from "@mui/material";
 import Header from "../../components/Header";
 
 
