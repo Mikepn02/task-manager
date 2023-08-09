@@ -21,13 +21,13 @@ const userSchema = yup.object().shape({
     firstName: yup.string().required("required"),
     lastName: yup.string().required("required"),
     email: yup.string().email("Invalid email").required("required"),
-    comtact: yup
+    contact: yup
         .string()
         .matches(phoneRegExp, 'Phone number is not valid')
         .required("required"),
     address1: yup.string().required("required"),
     address2: yup.string().required("required"),
-})
+});
 
 
 const Form = () => {
@@ -66,7 +66,7 @@ const Form = () => {
                                 onBlur={handleBlur}
                                 onChange={handleChange}
                                 value={values.firstName}
-                                name="FirstName"
+                                name="firstName"
                                 error={!!touched.firstName && !!errors.firstName}
                                 helpertext={touched.firstName && errors.firstName}
                                 sx={{ gridColumn: "span 2" }}
@@ -136,8 +136,8 @@ const Form = () => {
                                 onBlur={handleBlur}
                                 onChange={handleChange}
                                 value={values.address2}
-                                name="address1"
-                                error={!!touched.address2 && !!errors.address2}
+                                name="address2"
+                                error={!!touched.address1 && !!errors.address2}
                                 helpertext={touched.address2 && errors.address2}
                                 sx={{ gridColumn: "span 4" }}
 
